@@ -15,16 +15,22 @@ code {
     monospace;
 }
 
-div {
+.container {
   width: 100%;
   height: 100vh;
+  background-color: rgb(131, 226, 225);
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: brown; */
+
 }
 
+
 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 background-color: coral;
 padding: 30px;
 border-radius: 30px;
